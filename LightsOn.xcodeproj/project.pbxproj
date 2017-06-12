@@ -12,6 +12,7 @@
 		E493703A1EE3018B00A2D1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49370381EE3018B00A2D1DF /* Main.storyboard */; };
 		E493703C1EE3018B00A2D1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E493703B1EE3018B00A2D1DF /* Assets.xcassets */; };
 		E493703F1EE3018B00A2D1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E493703D1EE3018B00A2D1DF /* LaunchScreen.storyboard */; };
+		E49CB8181EEE863A00FE2C73 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49370471EE301A800A2D1DF /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E493703B1EE3018B00A2D1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E493703E1EE3018B00A2D1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49370401EE3018B00A2D1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49370471EE301A800A2D1DF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49CB8181EEE863A00FE2C73 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				E49370331EE3018B00A2D1DF /* LightsOn */,
 				E49370321EE3018B00A2D1DF /* Products */,
+				E49370461EE301A800A2D1DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				E49370401EE3018B00A2D1DF /* Info.plist */,
 			);
 			path = LightsOn;
+			sourceTree = "<group>";
+		};
+		E49370461EE301A800A2D1DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E49370471EE301A800A2D1DF /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +309,7 @@
 				E49370451EE3018B00A2D1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
